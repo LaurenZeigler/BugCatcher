@@ -1,0 +1,3 @@
+[submodule "Unity_BugCatcher/BugCatcher/Assets/ADTools"]
+	path = Unity_BugCatcher/BugCatcher/Assets/ADTools
+	url = https://github.com/LaurenZeigler/ArtisanDream.Tools.git
