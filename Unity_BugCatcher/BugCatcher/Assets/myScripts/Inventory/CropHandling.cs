@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Inventory", menuName = "wrensScripts/CropHandling")]
+[CreateAssetMenu(fileName = "CropHandling", menuName = "wrensScripts/CropHandling")]
 public class CropHandling : ScriptableObject
 {
     [System.Serializable]

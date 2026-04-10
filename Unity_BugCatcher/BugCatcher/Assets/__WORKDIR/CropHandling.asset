@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: CropHandling
   m_EditorClassIdentifier: 
   crops:
-  - cropName: prototype
+  - cropName: 
     cropType: 0
     plotSizeNeeded: 0
     seedName: 
     seedEdible: 0
-    cropEdible: 1
+    cropEdible: 0
     freshPerish: 0
-    cropDryable: 1
+    cropDryable: 0
     dryPerish: 0
-    cropMaxCarry: 50
-    cropCurrentCarry: 1
-    seedMaxCarry: 50
-    seedCurrentCarry: 4
+    cropMaxCarry: 0
+    cropCurrentCarry: 0
+    seedMaxCarry: 0
+    seedCurrentCarry: 0
     cropMaxAmount: 0
     cropCurrentAmount: 0
     seedMaxAmount: 0

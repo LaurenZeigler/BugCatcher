@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class NetAction : MonoBehaviour
 {
@@ -13,7 +15,7 @@ public class NetAction : MonoBehaviour
     public float sizeDefault;
     public float sizeLarge;
 
-    // public InputActionReference interactButton; (MAKE new button for slinging net)
+    public InputActionReference interactButton; // MAKE new button for slinging net
     private bool isNearby;
     
     private void OnTriggerEnter(Collider other)
@@ -40,6 +42,15 @@ public class NetAction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (interactButton.action.triggered)
+        {
+            // Turn on net hitbox
+            // Wait
+            if (isNearby)
+            {
+                
+            }
+            // Turn off net hitbox
+        }
     }
 }

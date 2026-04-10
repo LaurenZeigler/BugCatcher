@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c45e2c20eba04b38bc1c3de5cdca456, type: 3}
+  m_Name: InGamePurchase
+  m_EditorClassIdentifier: 
+  item: {fileID: 0}
+  previewArt: {fileID: 0}
+  usageCount: 3
+  usagePurchase: 10
+  unlimitedUse: 0
+  value: 0
+  upgrade: 0
+  upgradeFrom: {fileID: 0}
+  getInstanceLocation: {fileID: 0}
+  perpetual: 0
+  instanciatable: 0
+  onCreate:
+    m_PersistentCalls:
+      m_Calls: []
