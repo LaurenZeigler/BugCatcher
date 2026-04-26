@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d31b7552f618e46824c75b6ab5dd00, type: 3}
+  m_Name: Ants
+  m_EditorClassIdentifier: 
+  insectSpecies: Ant
+  insectTaxonomy: 4
+  insectsOfThisSpecies:
+  - insectName: Default Ant
+    preferredBiome: 1184
+    preferredSpawners: 8
+    insectPrefab: {fileID: 5235081668029356500, guid: 6b808675121381a438175a69ec85fb2b,
+      type: 3}
+    catalogueImage: {fileID: 7482667652216324306, guid: 34bc9b27cf227493bb06ac4ed145c276,
+      type: 3}
+  - insectName: Default Ant
+    preferredBiome: 1184
+    preferredSpawners: 8
+    insectPrefab: {fileID: 5235081668029356500, guid: 6b808675121381a438175a69ec85fb2b,
+      type: 3}
+    catalogueImage: {fileID: 7482667652216324306, guid: 34bc9b27cf227493bb06ac4ed145c276,
+      type: 3}
+  - insectName: Default Ant
+    preferredBiome: 1184
+    preferredSpawners: 8
+    insectPrefab: {fileID: 5235081668029356500, guid: 6b808675121381a438175a69ec85fb2b,
+      type: 3}
+    catalogueImage: {fileID: 7482667652216324306, guid: 34bc9b27cf227493bb06ac4ed145c276,
+      type: 3}
+  wildBehavior: 0
+  tamedBehavior: 0
+  timeIdling: 0.288
+  timeWalking: 0.961
+  timeFlying: 0
+  climbWalls: 0
+  timeSwimming: 0
+  timeFloatOnSurface: 0
+  hoardingInsect: 0
+  untamable: 0

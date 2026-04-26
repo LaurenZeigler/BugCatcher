@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4d5f9a6aee70a40b9947b3d89108d9, type: 3}
+  m_Name: test2
+  m_EditorClassIdentifier: 
+  inputString: testing string 2
+  inputPercentage: 0.739
+  inputGameObject: {fileID: 0}
+  inputSprite: {fileID: 0}
+  selectOne: 0
+  selectMultiple: 0
+  stringList:
+  - inputStringClass: test 2 APHID
+    inputGameObjectClass: {fileID: 5235081668029356500, guid: f6dc8e76bf5573940880acfc0abb4330,
+      type: 3}
+    inputSpriteClass: {fileID: 7482667652216324306, guid: 34bc9b27cf227493bb06ac4ed145c276,
+      type: 3}
+    selectOneClass: 1
+    selectMultipleClass: 1088
